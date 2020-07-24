@@ -52,4 +52,5 @@ func main() {
 	if guesses == 0 {
 		fmt.Println("You ran out of guesses!")
 	}
+	reader.ReadLine()
 }
